@@ -8,7 +8,7 @@ import "./utils/TestUtils.sol";
 /// @notice Example contract that borrows and repays from Compound.
 contract BorrowAndRepayTest is Test, TestUtils {
     function setUp() public {
-        // Fork mainnet at block 16401180.
+        // Fork mainnet at block 16_401_180.
         cheat.createSelectFork("mainnet", BLOCK_NUMBER);
     }
 
