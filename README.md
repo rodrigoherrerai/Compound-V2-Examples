@@ -10,6 +10,10 @@ https://mirror.xyz/roherrera.eth/jS7oMZFxquX7pXNkRxBO9JFR0rxdoCbudKojjB9zzEs
 
 ## Installation
 
+This repo uses [Foundry](https://github.com/foundry-rs/foundry), if you don't have it installed, go [here](https://book.getfoundry.sh/getting-started/installation) for instructions. 
+
+Once you cloned the repo, be sure to be located at the root and run the following command:
+
 ```
 forge install 
 ```
