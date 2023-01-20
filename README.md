@@ -59,7 +59,7 @@ Location: test/SupplyAndRedeem.t.sol
 Basic example of how to supply a token to Compound and then redeem it plus earned interests. 
 
 
-### 3. Borrow & Repay 
+### 3. Borrow & Repay 
 
 Location: test/BorrowAndRepay.t.sol 
 
