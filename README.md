@@ -29,8 +29,39 @@ forge test -vv
 ```
 * An alchemy key is provided, you don't need to add anything. 
 
-If you one to test a specific example run: 
+To test a specific example run: 
 ```
 forge test --match-path test/name-of-the-file -vv
 ```
+
+## Examples 
+
+All examples are done by forking Mainnet.
+
+### 1. Upgrade Comptroller 
+
+Location: test/UpgradeComptroller.t.sol 
+
+This examples goes through the entire Compound's governance lifecycle. 
+
+The goal is to upgrade the Comptroller singleton. In order to do that we: 
+
+1 Get 400k COMP tokens
+2 Create the proposal 
+3 Vote in our favour 
+4 Execute the proposal 
+
+
+### 2. Supply & Redeem
+
+Location: test/SupplyAndRedeem.t.sol 
+
+Basic example of how to supply a token to Compound and then redeem it plus earned interests. 
+
+
+### 3. Borrow & Repay 
+
+Location: test/BorrowAndRepay.t.sol 
+
+Basic example of how to borrow a token from Compound and then repay the debt.
 
